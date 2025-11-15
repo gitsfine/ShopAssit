@@ -22,4 +22,11 @@
         android:name="com.aisight.shopassist.ui.notifications.NotificationsFragment"
         android:label="@string/title_notifications"
         tools:layout="@layout/fragment_notifications" />
+
+    <fragment
+        android:id="@+id/navigation_initial_login"
+        android:name="com.aisight.shopassist.ui.initiallogin.InitialLoginFragment"
+        android:label="@string/title_initial_login"
+        tools:layout="@layout/fragment_initial_login" />
+
 </navigation>
