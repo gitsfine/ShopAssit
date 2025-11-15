@@ -7,7 +7,7 @@ import androidx.lifecycle.ViewModel
 class InitialLoginViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is page"
+        value = "UserName"
     }
     val text: LiveData<String> = _text
 }
